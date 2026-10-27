@@ -1,3 +1,21 @@
+# SupoClip em português: cortes virais do seu vídeo longo, sem marca d'água
+
+> **Cópia mantida pela [Exos Marketing](https://www.instagram.com/exosmkt/).** O SupoClip foi criado por **[FujiwaraChoki](https://github.com/FujiwaraChoki)** e está aqui sob a licença AGPL-3.0, sem alteração no código. Repositório original: [FujiwaraChoki/supoclip](https://github.com/FujiwaraChoki/supoclip).
+
+## O que ele faz
+
+Você cola um link do YouTube (ou sobe o seu vídeo, podcast ou live gravada) e ele devolve de 3 a 7 cortes na vertical, com nota de viralidade, legenda palavra por palavra, título de gancho e o rosto sempre no centro. Rodando no seu computador, não tem marca d'água nem limite.
+
+## Instalação em 1 minuto
+
+Precisa do **Docker** instalado. Abra o Claude Code e cole:
+
+> Clona o github.com/FujiwaraChoki/supoclip e roda neste computador com Docker, 100% local com Whisper e Ollama (sem API paga). Depois abre o localhost:3107.
+
+**Sem o modo local**, o projeto pede uma chave da AssemblyAI (transcrição) e de um provedor de IA (Google, OpenAI ou Anthropic). O passo a passo do modo local está no tutorial oficial: https://www.supoclip.com/blog/self-host-supoclip-docker#local
+
+---
+
 <p align="center">
   <a href="https://www.supoclip.com">
     <img src="assets/banner.jpg" alt="SupoClip dashboard with video input, caption controls, and recent clips" width="100%" />
